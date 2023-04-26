@@ -1,7 +1,13 @@
+.container {
+  border: 1px solid black;
+  width: 500px;
+}
+
 .Input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid black;
 }
 
 input {
@@ -12,7 +18,7 @@ input {
 
 .addButton {
   background-color: green;
-  color: #fff;
+  color: white;
   border: none;
   padding: 10px;
   border-radius: 5px;
